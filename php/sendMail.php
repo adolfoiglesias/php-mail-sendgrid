@@ -4,9 +4,9 @@ require '../vendor/autoload.php';
 
 $nombre_err = $correo_err = $message_err = "";
 
-$apiKey = "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";
+$apiKey = "";
 $fromMail = "";
-$toMail = "amich05@gmail.com";
+$toMail = "";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
